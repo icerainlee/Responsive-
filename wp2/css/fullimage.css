@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        background-color: bisque;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 501px) {
+    body {
+        background-color: aqua;
+    }
+
+    h1 {
+        color: pink;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: green; 
+    }
+}
